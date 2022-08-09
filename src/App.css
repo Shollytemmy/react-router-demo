@@ -1,6 +1,13 @@
 .nav__links{
   background-color: #61dafb;
   padding: 17px 10px;
+  margin-bottom: 2rem;
+}
+
+.nav__list {
+
+  padding: 17px 10px;
+  margin-bottom: 2rem;
 }
 
 .nav__links > a{
@@ -8,6 +15,12 @@
   margin-left: 0.9rem;
   color: #fff;
 }
+
+p{
+  margin-top:  3rem;
+}
+
+
 
 
 /* .nav__links > a.active{
@@ -25,3 +38,4 @@
    }
 
  }*/
+

@@ -7,6 +7,7 @@ export const OrderSummary = () => {
     <div> 
         <p>Order Confirmed you can proceed to checkout</p>
         <button onClick={() => navigate(-1)}>Go back</button>
+       
     </div>
   )
 }
