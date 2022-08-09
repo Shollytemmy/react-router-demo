@@ -7,12 +7,13 @@ import { Navbar } from './components/Navbar';
 import { OrderSummary } from './pages/OrderSummary';
 import { CheckOut } from './pages/CheckOut';
 
-import { Products } from './components/Products';
+import { Products } from './pages/Products';
 import { FeaturedProducts } from './pages/FeaturedProducts';
 import { NewProducts } from './pages/NewProducts';
 import './App.css'
 import { IntroPage } from './pages/IntroPage';
 import { Users } from './pages/Users';
+import { UserDetails } from './pages/UserDetails';
 function App() {
   return (
     <div className=''>
@@ -29,7 +30,7 @@ function App() {
         <Route path='new' element={<NewProducts />} />
          </Route>
         <Route path='users' element={<Users />} />
-      <Route path='users/:userID' element={<Users />} />
+      <Route path='users/:userID' element={<UserDetails />} />
      
       <Route path='*' element={<Error />} />
     </Routes>
