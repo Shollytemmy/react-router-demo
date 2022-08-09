@@ -10,10 +10,10 @@ export const Users = () => {
         {
             usersId.map((id) => {
                 return(
-                     <Link to={`/users/${id}`} key={id}>
+                     <div onClick={() => navigate(`/users/${id}`)} key={id}>
                             <h1>user {id}</h1>
                             
-                        </Link>
+                        </div>
                 )
             })
         }
