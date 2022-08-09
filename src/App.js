@@ -14,6 +14,7 @@ import './App.css'
 import { IntroPage } from './pages/IntroPage';
 import { Users } from './pages/Users';
 import { UserDetails } from './pages/UserDetails';
+import { Admin } from './pages/Admin';
 function App() {
   return (
     <div className=''>
@@ -31,6 +32,7 @@ function App() {
          </Route>
         <Route path='users' element={<Users />} />
       <Route path='users/:userID' element={<UserDetails />} />
+      <Route path='users/admin' element={<Admin />} />
      
       <Route path='*' element={<Error />} />
     </Routes>
