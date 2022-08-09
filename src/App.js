@@ -12,6 +12,7 @@ import { FeaturedProducts } from './pages/FeaturedProducts';
 import { NewProducts } from './pages/NewProducts';
 import './App.css'
 import { IntroPage } from './pages/IntroPage';
+import { Users } from './pages/Users';
 function App() {
   return (
     <div className=''>
@@ -27,6 +28,9 @@ function App() {
         <Route path='featured' element={<FeaturedProducts />} />
         <Route path='new' element={<NewProducts />} />
          </Route>
+        <Route path='users' element={<Users />} />
+      <Route path='users/:userID' element={<Users />} />
+     
       <Route path='*' element={<Error />} />
     </Routes>
     </div>

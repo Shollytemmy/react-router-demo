@@ -6,7 +6,10 @@ export const Home = () => {
   return (
     <div className='container'> 
         <p>This is the Home page</p>
-        <button onClick={()=> navigate('order-summary', {replace: true})}>place order</button>
+        <button onClick={()=> navigate('order-summary')}>place order</button>
     </div>
   )
 }
+
+
+/**<button onClick={()=> navigate('order-summary', {replace: true})}>place order</button> */
